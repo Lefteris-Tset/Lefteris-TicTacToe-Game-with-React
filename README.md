@@ -1,4 +1,4 @@
-<b><h1>Lefteris’ Tic Tac Toe Game</h1></b>
+<b><h1>Lefteris Tic Tac Toe Game</h1></b>
 
 <h4>This is a two-player Tic Tac Toe game (X and O) that I created using React. The game keeps track of the score, making it easy to see who’s winning.</h4>
 
