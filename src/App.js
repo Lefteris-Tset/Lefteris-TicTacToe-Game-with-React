@@ -14,7 +14,8 @@ function Square({ value, onSquareClick, isWinning }) {
   let squareClass = "square";
   if (value === "X") {
     squareClass += " x-mark";
-  } else if (value === "O") {
+  } 
+  else if (value === "O") {
     squareClass += " o-mark";
   }
   if (isWinning) {
