@@ -44,12 +44,8 @@ function Board({ onGameEnd, resetTrigger, currentFirstPlayer }) {
       return;
     }
     const nextSquares = squares.slice();
-    if (xIsNext) {
-      nextSquares[i] = "X";
-    } 
-    else {
-      nextSquares[i] = "O";
-    }
+    
+    nextSquares[i] = xIsNext ? "X" : "O";
 
     setSquares(nextSquares);
     
