@@ -33,6 +33,23 @@
   text-align: right;
 }
 
+.square {
+  border: 2.4px solid #ffffff;
+  float: left;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  width: 155px;
+  height: 155px;
+  font-size: 60px;
+  display: flex;
+  text-align: center;
+  background-color: #dfdfdf;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
 .square.x-mark {
   color: #007bff; 
 }
@@ -97,22 +114,6 @@
   font-weight: bold;
 }
 
-.square {
-  border: 2.4px solid #ffffff;
-  float: left;
-  line-height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  width: 155px;
-  height: 155px;
-  font-size: 60px;
-  display: flex;
-  text-align: center;
-  background-color: #dfdfdf;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-}
 
 .status {
   margin-bottom: 10px;
