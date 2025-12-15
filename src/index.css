@@ -42,7 +42,6 @@
   width: 155px;
   height: 155px;
   font-size: 60px;
-  display: flex;
   text-align: center;
   background-color: #dfdfdf;
   cursor: pointer;
@@ -68,8 +67,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
 }
 
 .status{
