@@ -67,7 +67,8 @@ function Board({ onGameEnd, resetTrigger, currentFirstPlayer }) {
   
   if (winnerResult.winner) {
     status = "It's " + (xIsNext ? "X" : "O") + " turn";
-  } else {
+  } 
+  else {
     status = "It's " + (xIsNext ? "X" : "O") + " turn";
   }
 
